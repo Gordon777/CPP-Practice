@@ -69,7 +69,7 @@ int main() {
 //   Declare an empty 2D vector called vector_2d
 //   Remember, that a 2D vector is a vector of vector<int>
 
-    vector <vector<int>> vector_2d;
+    vector <vector<int> > vector_2d;
     
 //    Add vector1 to vector_2d dynamically using push_back
 //    Add vector2 to vector_2d dynamically using push_back
