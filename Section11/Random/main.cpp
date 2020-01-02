@@ -11,7 +11,7 @@ int main() {
       
     int random_number {};
     size_t count {10};           // number of random numbers to generate
-    int min {1};                  // lower bound (inclusive) 
+    int min {0};                  // lower bound (inclusive) 
     int max {6};                 // upper bound (inclusive)
     
     // seed the random number generator

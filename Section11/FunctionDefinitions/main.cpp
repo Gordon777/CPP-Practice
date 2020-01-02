@@ -37,7 +37,6 @@ void volume_cylinder() {
 int main() {
     
     area_circle();
-    area_circle();
     volume_cylinder();
     
     return 0;
