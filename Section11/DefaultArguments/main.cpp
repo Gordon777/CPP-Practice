@@ -32,15 +32,18 @@ int main() {
     cost = calc_cost(200.0);                         // will use default tax and shipping   200 + 12 + 3.50
     cout << "Cost is: " << cost << endl;    // 215.50
     
+    cost = calc_cost(100.0,0.08,3.15);
+    cout << "Cost of 100/0.08/3.15 is: " << cost << endl;    // will use defaults  100 + 6 + 3.50
+    
     cost = calc_cost();
-    cout << "Cost is: " << cost << endl;    // 100 + 6 + 3.50
+    cout << "Defaults cost is: " << cost << endl;
     
     greeting("Glenn Jones", "Dr.", "M.D.");
     greeting("James Rogers", "Professor", "Ph.D.");
     greeting("Frank Miller", "Dr.");
     greeting("William Smith");
     greeting("Mary Howard", "Mrs.", "Ph.D.");
-
+    greeting("Gordon Yan","Dr. ","Ph.D.");
     cout << endl;
     return 0;
 }
