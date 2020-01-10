@@ -11,7 +11,7 @@ void print_array(const int arr[], size_t size) {  // const
     for (size_t i{0}; i < size; ++i)
         cout << arr[i] << " ";
     cout << endl;
-   // arr[0] = 50000; // bug
+//    arr[0] = 50000; // bug
 }
 
 // set each array element to value
