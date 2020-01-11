@@ -51,10 +51,11 @@ int main() {
     
     global_example();
     global_example();
+    global_example();
     
     static_local_example();
-//    static_local_example();
-//    static_local_example();
+    static_local_example();
+    static_local_example();
 
     cout << endl;
     return 0;
